@@ -17,9 +17,46 @@ section#tresc{
 div {
     position: absolute;
     top: 0;  
-    display: none;
+    opacity: 0;
 }
 
-div {
-    display: block;
+#dziesiec {
+    opacity: 0;
 }
+
+#dziewiec {
+    opacity: 0;
+}
+
+#osiem {
+    opacity: 0;
+}
+
+#siedem {
+    opacity: 0;
+}
+
+#szesc {
+    opacity: 0;
+}
+
+#piec {
+    opacity: 0;
+}
+
+#cztery {
+    opacity: 0;
+}
+
+#trzy {
+    opacity: 0;
+}
+
+#dwa {
+    opacity: 0;
+}
+
+#jeden {
+    opacity: 1;
+}
+
