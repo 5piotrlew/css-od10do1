@@ -10,53 +10,67 @@ body {
     color: #fff;
 }
 
-section#tresc{
+section#tresc {
     position: relative;
 }
 
-div {
+section#tresc div {
     position: absolute;
-    top: 0;  
+    top: 0;
     opacity: 0;
+    animation-name: licznik;
+    animation-duration: 1s;
 }
 
 #dziesiec {
-    opacity: 0;
+    animation-duration: 1s;
 }
 
 #dziewiec {
-    opacity: 0;
+    animation-delay: 1s;
 }
 
 #osiem {
-    opacity: 0;
+    animation-delay: 2s;
 }
 
 #siedem {
-    opacity: 0;
+    animation-delay: 3s;
 }
 
 #szesc {
-    opacity: 0;
+    animation-delay: 4s;
 }
 
 #piec {
-    opacity: 0;
+    animation-delay: 5s;
 }
 
 #cztery {
-    opacity: 0;
+    animation-delay: 6s;
 }
 
 #trzy {
-    opacity: 0;
+    animation-delay: 7s;
 }
 
 #dwa {
-    opacity: 0;
+    animation-delay: 8s;
 }
 
 #jeden {
-    opacity: 1;
+    animation-delay: 9s;
 }
 
+#tekst {
+    animation-delay: 10s;
+}
+
+@keyframes licznik {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
