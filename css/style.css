@@ -1,6 +1,25 @@
+body {
+    margin: 0 auto;
+    font-size: 10em;
+}
+
 * {
     box-sizing: border-box;
     margin: 0 auto;
     background-color: black;
     color: #fff;
+}
+
+section#tresc{
+    position: relative;
+}
+
+div {
+    position: absolute;
+    top: 0;  
+    display: none;
+}
+
+div {
+    display: block;
 }
